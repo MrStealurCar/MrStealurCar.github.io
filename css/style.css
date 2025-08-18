@@ -1,0 +1,118 @@
+a {
+  color: blue;
+}
+
+a:hover {
+  color: #0096ff;
+}
+
+* {
+  background-color: lightgray;
+}
+
+main {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* index.html styles */
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+}
+
+.nav-link {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  width: 7%;
+}
+
+.name {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.description {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* about.html styles */
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.about-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-body {
+  padding: 0px 15px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.skills {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#tech-title {
+  text-align: center;
+}
+
+/* projects.html styles */
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-title {
+  margin-top: 5%;
+}
+
+.project-description {
+  font-size: 20px;
+  width: 75%;
+  text-align: center;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.demo-item {
+  display: flex;
+  align-items: baseline;
+}
+
+.demo-item h3 {
+  margin: 2px;
+}
+
+.link-desc {
+  font-size: 18px;
+}
+
+.tech-stack {
+  display: flex;
+  align-items: baseline;
+}
+
+.tech-stack span {
+  margin-left: 2px;
+  font-size: 20px;
+}
