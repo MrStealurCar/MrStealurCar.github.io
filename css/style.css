@@ -1,13 +1,17 @@
-a {
-  color: blue;
+html {
+  min-height: 100%;
 }
 
 a:hover {
-  color: #0096ff;
+  color: aqua;
 }
 
 * {
-  background-color: lightgray;
+  color: white;
+}
+
+body {
+  background: linear-gradient(to right, #00264d, #0052a2);
 }
 
 main {
@@ -36,6 +40,7 @@ main {
 .description {
   font-size: 18px;
   text-align: center;
+  height: auto;
 }
 
 /* about.html styles */
@@ -79,6 +84,7 @@ main {
 }
 
 .project-title {
+  font-family: Helvetica, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-top: 5%;
 }
 
